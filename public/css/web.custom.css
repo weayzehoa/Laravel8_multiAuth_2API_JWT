@@ -1,0 +1,24 @@
+/*!
+ *   Custom CSS
+ */
+
+#particles-js {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('../img/bg.jpg');
+}
+.content-wrapper {
+    background: rgba(0,0,0,0);
+}
+
+.alert-float{
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
