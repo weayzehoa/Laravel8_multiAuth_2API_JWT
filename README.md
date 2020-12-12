@@ -13,9 +13,9 @@
 3. node.js
 
 ### 還原步驟
-1. 還原 vendor 核心目錄
+1. 還原 vendor 核心目錄<br>
     composer install
-2. 還原 node_modules 目錄
+2. 還原 node_modules 目錄<br>
     npm install
 
 ### 設定 (切換到專案根目錄)
