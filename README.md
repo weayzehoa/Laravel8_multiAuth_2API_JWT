@@ -20,30 +20,30 @@
 
 ### 設定 (切換到專案根目錄)
 1. 複製 .env.example 到 .env 檔案
-4. 產生 APP_KEY
+4. 產生 APP_KEY<br>
     php artisan key:generate
-5. 產生 JWT Secret Key (執行過程中會詢問覆蓋,選擇yes覆蓋)
+5. 產生 JWT Secret Key (執行過程中會詢問覆蓋,選擇yes覆蓋)<br>
     php artisan jwt:secret
-6. 設定 .env
+6. 設定 .env<br>
     設定資料庫名稱及帳號密碼
-7. 還原資料庫
+7. 還原資料庫<br>
     php artisan migrate
-8. 產生假資料
+8. 產生假資料<br>
     php artisan db:seed
 
 ### Web 操作
 1. 前台路徑
-    http://localhost/
-    帳號: user@mail.com
-    密碼: user
-2. 後台路徑
-    http://localhost/admin
-    帳號: admin@mail.com
-    密碼: admin
+    http://localhost/<br>
+    帳號: user@mail.com<br>
+    密碼: user<br>
+2. 後台路徑<br>
+    http://localhost/admin<br>
+    帳號: admin@mail.com<br>
+    密碼: admin<br>
 
 ### API 操作
 請使用Postman或其他工具
-1. 前台路徑
+1. 前台路徑<br>
     http://localhost/api/login <br>
     http://localhost/api/me <br>
     http://localhost/api/list <br>
@@ -51,7 +51,7 @@
     帳號: user@mail.com <br>
     密碼: user <br>
 
-2. 後台路徑
+2. 後台路徑<br>
     http://localhost/api/admin/login <br>
     http://localhost/api/admin/me <br>
     http://localhost/api/admin/list <br>
