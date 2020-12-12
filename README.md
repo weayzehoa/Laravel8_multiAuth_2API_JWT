@@ -7,18 +7,18 @@
 
 ## Windows 測試環境 還原 Laravel 專案步驟
 
-# 安裝軟體
+### 安裝軟體
 1. XAMPP
 2. Composer
 3. node.js
 
-# 還原步驟
+### 還原步驟
 1. 還原 vendor 核心目錄
     composer install
 2. 還原 node_modules 目錄
     npm install
 
-# 設定 (切換到專案根目錄)
+### 設定 (切換到專案根目錄)
 1. 複製 .env.example 到 .env 檔案
 4. 產生 APP_KEY
     php artisan key:generate
@@ -31,7 +31,7 @@
 8. 產生假資料
     php artisan db:seed
 
-# Web 操作
+### Web 操作
 1. 前台路徑
     http://localhost/
     帳號: user@mail.com
@@ -41,20 +41,20 @@
     帳號: admin@mail.com
     密碼: admin
 
-# API 操作
+### API 操作
 請使用Postman或其他工具
 1. 前台路徑
-    http://localhost/api/login
-    http://localhost/api/me
-    http://localhost/api/list
-    http://localhost/api/logout
-    帳號: user@mail.com
-    密碼: user
+    http://localhost/api/login <br>
+    http://localhost/api/me <br>
+    http://localhost/api/list <br>
+    http://localhost/api/logout <br>
+    帳號: user@mail.com <br>
+    密碼: user <br>
 
 2. 後台路徑
-    http://localhost/api/admin/login
-    http://localhost/api/admin/me
-    http://localhost/api/admin/list
-    http://localhost/api/admin/logout
-    帳號: admin@mail.com
-    密碼: admin
+    http://localhost/api/admin/login <br>
+    http://localhost/api/admin/me <br>
+    http://localhost/api/admin/list <br>
+    http://localhost/api/admin/logout <br>
+    帳號: admin@mail.com <br>
+    密碼: admin <br>
